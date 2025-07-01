@@ -132,7 +132,7 @@ metadata:
   labels:
     app: minio
 spec:
-  host: webui-minio.apps.freis.rhbr-lab.com
+  host: webui-minio.apps.marcruz.rhbr-lab.com
   to:
     kind: Service
     name: minio-webui
@@ -150,7 +150,7 @@ metadata:
   labels:
     app: minio
 spec:
-  host: s3-storage.apps.freis.rhbr-lab.com
+  host: s3-storage.apps.marcruz.rhbr-lab.com
   to:
     kind: Service
     name: minio-api
